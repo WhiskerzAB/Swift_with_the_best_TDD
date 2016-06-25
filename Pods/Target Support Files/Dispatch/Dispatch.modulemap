@@ -1,0 +1,6 @@
+framework module DispatchFramework {
+  umbrella header "Dispatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

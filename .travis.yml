@@ -1,0 +1,11 @@
+language: objective-c
+osx_image: xcode7.3
+xcode_sdk: iphonesimulator
+
+before_install:
+  - brew update
+  - brew outdated xctool || brew upgrade xctool
+  
+script: 
+  - xctool -workspace Swift_with_the_best_TDD.xcworkspace -scheme 'Swift_with_the_best_TDD' -reporter pretty build-tests CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+  

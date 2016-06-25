@@ -1,0 +1,10 @@
+PODS:
+  - Dispatch (0.9.6)
+
+DEPENDENCIES:
+  - Dispatch
+
+SPEC CHECKSUMS:
+  Dispatch: 0cdb8f827a1eb7f140b21d47184e8b17962341d8
+
+COCOAPODS: 0.39.0
