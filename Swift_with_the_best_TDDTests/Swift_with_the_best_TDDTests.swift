@@ -65,6 +65,19 @@ class Swift_with_the_best_TDDTests: XCTestCase {
         XCTAssertEqual(1 + 1, 2, "one plus one should be equals two")
     }
     
+    // MARK: Example of Async test
+    
+    func testBasicAsync() {
+        let expectation = expectationWithDescription("Wait for Dispatch Async")
+        let delay = 1.0
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
+            expectation.fulfill()
+        });
+        
+        waitForExpectationsWithTimeout(delay, handler: nil)
+    }
+    
     // MARK: Example of Performance Test
     
     func testPerformanceExample() {
