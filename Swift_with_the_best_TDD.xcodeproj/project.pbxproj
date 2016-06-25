@@ -16,6 +16,9 @@
 		7154A1F31D1EDABE00CA4F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7154A1F11D1EDABE00CA4F50 /* LaunchScreen.storyboard */; };
 		7154A1FE1D1EDABF00CA4F50 /* Swift_with_the_best_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7154A1FD1D1EDABF00CA4F50 /* Swift_with_the_best_TDDTests.swift */; };
 		7154A2091D1EDABF00CA4F50 /* Swift_with_the_best_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7154A2081D1EDABF00CA4F50 /* Swift_with_the_best_TDDUITests.swift */; };
+		71DF851F1D1EE7A4008F2779 /* CatBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DF851E1D1EE7A4008F2779 /* CatBreed.swift */; };
+		71DF85211D1EE8A0008F2779 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DF85201D1EE8A0008F2779 /* Cat.swift */; };
+		71DF85231D1EEC14008F2779 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DF85221D1EEC14008F2779 /* Constants.swift */; };
 		BD88B70F82A85C4D66A25F64 /* Pods_Swift_with_the_best_TDDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28ACEF40B820436199DCAD49 /* Pods_Swift_with_the_best_TDDUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		7154A2041D1EDABF00CA4F50 /* Swift_with_the_best_TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_with_the_best_TDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7154A2081D1EDABF00CA4F50 /* Swift_with_the_best_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_with_the_best_TDDUITests.swift; sourceTree = "<group>"; };
 		7154A20A1D1EDABF00CA4F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DF851E1D1EE7A4008F2779 /* CatBreed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatBreed.swift; sourceTree = "<group>"; };
+		71DF85201D1EE8A0008F2779 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		71DF85221D1EEC14008F2779 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		82EBADD22AB9FDFD23FFEA74 /* Pods-Swift_with_the_best_TDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_with_the_best_TDDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_with_the_best_TDDTests/Pods-Swift_with_the_best_TDDTests.release.xcconfig"; sourceTree = "<group>"; };
 		840C32000909B43E23FD2D1D /* Pods-Swift_with_the_best_TDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_with_the_best_TDD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_with_the_best_TDD/Pods-Swift_with_the_best_TDD.debug.xcconfig"; sourceTree = "<group>"; };
 		C39EC1D8D67713A0A9873E02 /* Pods-Swift_with_the_best_TDDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_with_the_best_TDDUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_with_the_best_TDDUITests/Pods-Swift_with_the_best_TDDUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,12 +130,12 @@
 		7154A1E71D1EDABE00CA4F50 /* Swift_with_the_best_TDD */ = {
 			isa = PBXGroup;
 			children = (
-				7154A1E81D1EDABE00CA4F50 /* AppDelegate.swift */,
-				7154A1EA1D1EDABE00CA4F50 /* ViewController.swift */,
-				7154A1EC1D1EDABE00CA4F50 /* Main.storyboard */,
-				7154A1EF1D1EDABE00CA4F50 /* Assets.xcassets */,
-				7154A1F11D1EDABE00CA4F50 /* LaunchScreen.storyboard */,
-				7154A1F41D1EDABE00CA4F50 /* Info.plist */,
+				71DF851D1D1EE6D5008F2779 /* Controllers */,
+				71DF851C1D1EE6C8008F2779 /* Storyboards */,
+				71DF851B1D1EE6B1008F2779 /* Supporting Files */,
+				71DF851E1D1EE7A4008F2779 /* CatBreed.swift */,
+				71DF85201D1EE8A0008F2779 /* Cat.swift */,
+				71DF85221D1EEC14008F2779 /* Constants.swift */,
 			);
 			path = Swift_with_the_best_TDD;
 			sourceTree = "<group>";
@@ -150,6 +156,33 @@
 				7154A20A1D1EDABF00CA4F50 /* Info.plist */,
 			);
 			path = Swift_with_the_best_TDDUITests;
+			sourceTree = "<group>";
+		};
+		71DF851B1D1EE6B1008F2779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7154A1E81D1EDABE00CA4F50 /* AppDelegate.swift */,
+				7154A1EF1D1EDABE00CA4F50 /* Assets.xcassets */,
+				7154A1F11D1EDABE00CA4F50 /* LaunchScreen.storyboard */,
+				7154A1F41D1EDABE00CA4F50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71DF851C1D1EE6C8008F2779 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7154A1EC1D1EDABE00CA4F50 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		71DF851D1D1EE6D5008F2779 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7154A1EA1D1EDABE00CA4F50 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		75FF57C4A36A1B6C44BF54E3 /* Pods */ = {
@@ -427,6 +460,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DF85231D1EEC14008F2779 /* Constants.swift in Sources */,
+				71DF85211D1EE8A0008F2779 /* Cat.swift in Sources */,
+				71DF851F1D1EE7A4008F2779 /* CatBreed.swift in Sources */,
 				7154A1EB1D1EDABE00CA4F50 /* ViewController.swift in Sources */,
 				7154A1E91D1EDABE00CA4F50 /* AppDelegate.swift in Sources */,
 			);
