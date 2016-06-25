@@ -8,4 +8,4 @@ before_install:
   
 script: 
   - xctool -workspace Swift_with_the_best_TDD.xcworkspace -scheme 'Swift_with_the_best_TDD' -reporter pretty build-tests CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-  
+
