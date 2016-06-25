@@ -19,7 +19,7 @@
 
 [Book: BDD in Action: Behavior-driven development for the whole software lifecycle)](https://www.amazon.co.uk/gp/product/161729165X/)
 
-[Testing with Xcode]([Book: Test-Driven iOS Development with Swift](https://www.packtpub.com/application-development/test-driven-ios-development-swift))
+[Testing with Xcode](https://developer.apple.com/library/tvos/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/04-writing_tests.html/)
 
 
 ## Author
